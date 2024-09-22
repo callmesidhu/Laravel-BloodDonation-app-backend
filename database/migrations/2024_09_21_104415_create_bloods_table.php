@@ -15,7 +15,7 @@ return new class extends Migration
         $table->id();
         $table->string('name');
         $table->string('phone');
-        $table->string('blood_group');
+        $table->string('blood');
         $table->timestamps();
     });
 }

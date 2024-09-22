@@ -10,4 +10,7 @@ class Blood extends Model
     use HasFactory;
     protected $table = 'blood_data'; // Specify your table name
     protected $fillable = ['name', 'phone', 'blood']; // Add your columns
+
+    
+    public $timestamps = false; // Disable timestamps
 }
